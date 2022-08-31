@@ -1,0 +1,5 @@
+qtwebkit-opensource-src (5.212.0.3~alpha4+deepin-1) stable; urgency=medium
+
+  * ['Rebuild  against by  current gcc 11.2']
+
+ -- Deepin Packages Builder <packages@deepin.org>  Wed, 31 Aug 2022 10:37:33 +0800

@@ -1,0 +1,47 @@
+Tests for ES6 class syntax "super"
+
+On success, you will see a series of "PASS" messages, followed by "TEST COMPLETE".
+
+
+PASS (new Base) instanceof Base
+PASS (new Derived) instanceof Derived
+PASS (new Derived).callBaseMethod():::baseMethodValue
+PASS x = (new Derived).callBaseMethod; x():::baseMethodValue
+PASS (new Derived).callBaseMethodInGetter:::baseMethodValue
+PASS (new Derived).callBaseMethodInSetter = 1; valueInSetter:::baseMethodValue
+PASS (new Derived).baseMethodInGetterSetter:::(new Base).baseMethod
+PASS (new Derived).baseMethodInGetterSetter = 1; valueInSetter:::(new Base).baseMethod
+PASS Derived.staticMethod():::"base3"
+PASS (new SecondDerived).chainMethod().toString():::["base", "derived", "secondDerived"].toString()
+PASS x = class extends Base { constructor() { super(); } super() {} }
+PASS x = class extends Base { constructor() { super(); } method() { super() } }:::SyntaxError: Cannot call super() outside of a class constructor.
+PASS x = class extends Base { constructor() { super(); } method() { super } }:::SyntaxError: Cannot reference super.
+PASS x = class extends Base { constructor() { super(); } method() { return new super } }:::SyntaxError: Cannot use new with super.
+PASS x = class extends Base { constructor() { super(); } method1() { delete (super.foo) } method2() { delete super["foo"] } }
+PASS (new x).method1():::ReferenceError: Cannot delete a super property
+PASS (new x).method2():::ReferenceError: Cannot delete a super property
+PASS new (class { constructor() { return undefined; } }) instanceof Object
+PASS new (class { constructor() { return 1; } }) instanceof Object
+PASS new (class extends Base { constructor() { return undefined } }):::ReferenceError: Cannot access uninitialized variable.
+PASS new (class extends Base { constructor() { super(); return undefined } }) instanceof Object
+PASS x = { }; new (class extends Base { constructor() { return x } });:::x
+PASS x instanceof Base
+PASS new (class extends Base { constructor() { } }):::ReferenceError: Cannot access uninitialized variable.
+PASS new (class extends Base { constructor() { return 1; } }):::TypeError: Cannot return a non-object type in the constructor of a derived class.
+PASS new (class extends null { constructor() { return undefined } }):::ReferenceError: Cannot access uninitialized variable.
+PASS new (class extends null { constructor() { super(); return undefined } }):::TypeError: function is not a constructor (evaluating 'super()')
+PASS x = { }; new (class extends null { constructor() { return x } });:::x
+PASS x instanceof Object
+PASS new (class extends null { constructor() { } }):::ReferenceError: Cannot access uninitialized variable.
+PASS new (class extends null { constructor() { return 1; } }):::TypeError: Cannot return a non-object type in the constructor of a derived class.
+PASS new (class extends null { constructor() { super() } }):::TypeError: function is not a constructor (evaluating 'super()')
+PASS new (class { constructor() { super() } }):::SyntaxError: Cannot call super() in a base class constructor.
+PASS function x() { super(); }:::SyntaxError: Cannot call super() outside of a class constructor.
+PASS new (class extends Object { constructor() { function x() { super() } } }):::SyntaxError: Cannot call super() outside of a class constructor.
+PASS new (class extends Object { constructor() { function x() { super.method } } }):::SyntaxError: super can only be used in a method of a derived class.
+PASS function x() { super.method(); }:::SyntaxError: super can only be used in a method of a derived class.
+PASS function x() { super(); }:::SyntaxError: Cannot call super() outside of a class constructor.
+PASS successfullyParsed
+
+TEST COMPLETE
+

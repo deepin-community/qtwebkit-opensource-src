@@ -1,0 +1,9 @@
+CONSOLE MESSAGE: line 41: X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>.
+
+
+== Running test suite: Console.XFrameOptionsMessages
+-- Running test case: XFrameOptionsDeny
+Evaluating expression: triggerXFrameOptionDeny();
+PASS: ConsoleMessage type should be 'security'.
+PASS: ConsoleMessage level should be 'error'.
+

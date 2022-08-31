@@ -1,0 +1,9 @@
+reduce_exports.diff
+path_max.diff
+support_riscv64.diff
+deepin-add-sunway-support.patch
+bison_3.7.diff
+no_pdf_image_plugin.diff
+python_3.9.diff
+glib_2.68.diff
+icu_true_false.patch

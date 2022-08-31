@@ -1,0 +1,9 @@
+# We use Travis CI only to run check-webkit-style
+language: python
+python: "2.7"
+sudo: false
+git:
+  depth: 3
+  sparse_checkout: .travis-sparse-checkout
+script: echo "Pull requests to qtwebkit-5.212 are forbidden, please target them to qtwebkit-stable or qtwebkit-dev" && false
+install: true

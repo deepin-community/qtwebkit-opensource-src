@@ -1,0 +1,34 @@
+
+== Running test suite: Runtime.getProperties
+-- Running test case: CheckPropertiesOfWrapperObject
+Evaluating expression: (function(){var r = Object(5); r.foo = 'cat';return r;})()
+Properties:
+  __proto__ object Number
+  foo string cat
+
+-- Running test case: CheckPropertiesOfArray
+Evaluating expression: ['red', 'green', 'blue']
+Properties:
+  __proto__ object Array
+  0 string red
+  1 string green
+  2 string blue
+  length number 3
+
+-- Running test case: CheckPropertiesOfBoundConstructor
+Evaluating expression: Number.bind({}, 5)
+Properties:
+  __proto__ function function () {
+    [native code]
+}
+  arguments object TypeError: Type error
+  caller object TypeError: Type error
+  length number 0
+  name string bound Number
+Internal properties:
+  boundArgs object Array
+  boundThis object Object
+  targetFunction function function Number() {
+    [native code]
+}
+

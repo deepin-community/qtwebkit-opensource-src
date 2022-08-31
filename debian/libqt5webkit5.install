@@ -1,0 +1,6 @@
+usr/lib/*/libQt5WebKit.so.5*
+usr/lib/*/libQt5WebKitWidgets.so.5*
+usr/lib/*/qt5/libexec/QtWebNetworkProcess
+usr/lib/*/qt5/libexec/QtWebPluginProcess
+usr/lib/*/qt5/libexec/QtWebProcess
+usr/lib/*/qt5/libexec/QtWebStorageProcess

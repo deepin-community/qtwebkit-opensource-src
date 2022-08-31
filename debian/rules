@@ -1,0 +1,60 @@
+#!/usr/bin/make -f
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+include /usr/share/dpkg/architecture.mk
+
+export DEB_CPPFLAGS_MAINT_APPEND = -DNDEBUG
+
+# The debug packages produced by webkit are huge and cause problems in
+# most buildds, so use -g1 instead of -g
+export DEB_CXXFLAGS_MAINT_STRIP = -g
+export DEB_CXXFLAGS_MAINT_APPEND = -g1
+
+# See https://github.com/qtwebkit/qtwebkit/issues/626
+ifneq (,$(filter $(DEB_HOST_ARCH_CPU),mips mipsel))
+	export DEB_CXXFLAGS_MAINT_APPEND += -mfp32
+endif
+
+# See https://gcc.gnu.org/bugzilla/show_bug.cgi?id=81426
+ifneq (,$(filter $(DEB_HOST_ARCH_CPU),sh3 sh4))
+	export DEB_CXXFLAGS_MAINT_STRIP += -O2
+	export DEB_CXXFLAGS_MAINT_APPEND += -O1
+endif
+
+# WebKit uses memset/memcpy a lot
+export DEB_CXXFLAGS_MAINT_APPEND += -Wno-class-memaccess
+
+# Disable gold linker on all architectures except x32
+ifneq ($(DEB_HOST_ARCH),x32)
+	EXTRA_CMAKE_ARGUMENTS += -DUSE_LD_GOLD=OFF
+endif
+
+# JIT is only supported on x86 / armhf / aarch64 / mips32
+ifeq (,$(filter $(DEB_HOST_ARCH),amd64 arm64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel))
+	EXTRA_CMAKE_ARGUMENTS += -DENABLE_JIT=OFF
+endif
+
+# Copied from Fedora; see also https://github.com/qtwebkit/qtwebkit/issues/480
+ifneq (,$(filter $(DEB_HOST_ARCH_CPU),ppc64el s390x))
+	EXTRA_CMAKE_ARGUMENTS += -DUSE_SYSTEM_MALLOC=ON
+endif
+
+# webkit2gtk does a similar thing, see their prefer-pthread.patch
+ifeq ($(DEB_HOST_ARCH),riscv64)
+	EXTRA_CMAKE_ARGUMENTS += -DTHREADS_PREFER_PTHREAD_FLAG=ON
+endif
+
+%:
+	dh $@ --buildsystem=cmake+ninja --with pkgkde_symbolshelper
+
+override_dh_auto_configure:
+	dh_auto_configure -- -DPORT=Qt $(EXTRA_CMAKE_ARGUMENTS)
+
+override_dh_auto_test:
+ifeq (,$(filter nocheck,$(DEB_BUILD_OPTIONS)))
+	-cd obj-$(DEB_HOST_GNU_TYPE); \
+	xvfb-run -a -s "-screen 0 1024x768x24 +extension RANDR +extension RENDER +extension GLX" \
+	ctest --output-on-failure
+endif

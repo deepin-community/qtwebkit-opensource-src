@@ -1,42 +1,33 @@
-Description: replace old ICU TRUE / FALSE constants
- For some time ICU (since 68.1+ for sure) no longer specify nonstandard
- TRUE / FALSE constants. Use UBool(1) and UBool(0) instead.
-Author: Laszlo Boszormenyi (GCS) <gcs@debian.org>
-Bug-Debian: https://bugs.debian.org/1010118
+Description: fix macro definitions TRUE, FALSE
+Origin: Fedora, https://src.fedoraproject.org/rpms/qt5-qtwebkit/blob/rawhide/f/qtwebkit-icu68.patch
 Forwarded: no
-Last-Update: 2022-04-24
+Last-Update: 2022-03-13
 
----
-
-Index: qtwebkit-opensource-src/Source/WebCore/platform/text/TextCodecICU.cpp
-===================================================================
---- qtwebkit-opensource-src.orig/Source/WebCore/platform/text/TextCodecICU.cpp
-+++ qtwebkit-opensource-src/Source/WebCore/platform/text/TextCodecICU.cpp
+--- a/Source/WebCore/platform/text/TextCodecICU.cpp
++++ b/Source/WebCore/platform/text/TextCodecICU.cpp
 @@ -308,7 +308,7 @@ void TextCodecICU::createICUConverter()
      m_converterICU = ucnv_open(m_canonicalConverterName, &err);
      ASSERT(U_SUCCESS(err));
      if (m_converterICU)
--        ucnv_setFallback(m_converterICU, true);
-+        ucnv_setFallback(m_converterICU, UBool(1));
+-        ucnv_setFallback(m_converterICU, TRUE);
++        ucnv_setFallback(m_converterICU, true);
  }
  
  int TextCodecICU::decodeToBuffer(UChar* target, UChar* targetLimit, const char*& source, const char* sourceLimit, int32_t* offsets, bool flush, UErrorCode& err)
-Index: qtwebkit-opensource-src/Source/WebCore/platform/text/icu/UTextProvider.h
-===================================================================
---- qtwebkit-opensource-src.orig/Source/WebCore/platform/text/icu/UTextProvider.h
-+++ qtwebkit-opensource-src/Source/WebCore/platform/text/icu/UTextProvider.h
+--- a/Source/WebCore/platform/text/icu/UTextProvider.h
++++ b/Source/WebCore/platform/text/icu/UTextProvider.h
 @@ -80,12 +80,12 @@ inline bool uTextAccessInChunkOrOutOfRan
              // Ensure chunk offset is well formed if computed offset exceeds int32_t range.
              ASSERT(offset < std::numeric_limits<int32_t>::max());
              text->chunkOffset = offset < std::numeric_limits<int32_t>::max() ? static_cast<int32_t>(offset) : 0;
--            isAccessible = true;
-+            isAccessible = UBool(1);
+-            isAccessible = TRUE;
++            isAccessible = true;
              return true;
          }
          if (nativeIndex >= nativeLength && text->chunkNativeLimit == nativeLength) {
              text->chunkOffset = text->chunkLength;
--            isAccessible = false;
-+            isAccessible = UBool(0);
+-            isAccessible = FALSE;
++            isAccessible = false;
              return true;
          }
      } else {
@@ -44,46 +35,44 @@ Index: qtwebkit-opensource-src/Source/WebCore/platform/text/icu/UTextProvider.h
              // Ensure chunk offset is well formed if computed offset exceeds int32_t range.
              ASSERT(offset < std::numeric_limits<int32_t>::max());
              text->chunkOffset = offset < std::numeric_limits<int32_t>::max() ? static_cast<int32_t>(offset) : 0;
--            isAccessible = true;
-+            isAccessible = UBool(1);
+-            isAccessible = TRUE;
++            isAccessible = true;
              return true;
          }
          if (nativeIndex <= 0 && !text->chunkNativeStart) {
              text->chunkOffset = 0;
--            isAccessible = false;
-+            isAccessible = UBool(0);
+-            isAccessible = FALSE;
++            isAccessible = false;
              return true;
          }
      }
-Index: qtwebkit-opensource-src/Source/WebCore/platform/text/icu/UTextProviderLatin1.cpp
-===================================================================
---- qtwebkit-opensource-src.orig/Source/WebCore/platform/text/icu/UTextProviderLatin1.cpp
-+++ qtwebkit-opensource-src/Source/WebCore/platform/text/icu/UTextProviderLatin1.cpp
+--- a/Source/WebCore/platform/text/icu/UTextProviderLatin1.cpp
++++ b/Source/WebCore/platform/text/icu/UTextProviderLatin1.cpp
 @@ -100,23 +100,23 @@ static UBool uTextLatin1Access(UText* uT
          if (index < uText->chunkNativeLimit && index >= uText->chunkNativeStart) {
              // Already inside the buffer. Set the new offset.
              uText->chunkOffset = static_cast<int32_t>(index - uText->chunkNativeStart);
--            return true;
-+            return UBool(1);
+-            return TRUE;
++            return true;
          }
          if (index >= length && uText->chunkNativeLimit == length) {
              // Off the end of the buffer, but we can't get it.
              uText->chunkOffset = static_cast<int32_t>(index - uText->chunkNativeStart);
--            return false;
-+            return UBool(0);
+-            return FALSE;
++            return false;
          }
      } else {
          if (index <= uText->chunkNativeLimit && index > uText->chunkNativeStart) {
              // Already inside the buffer. Set the new offset.
              uText->chunkOffset = static_cast<int32_t>(index - uText->chunkNativeStart);
--            return true;
-+            return UBool(1);
+-            return TRUE;
++            return true;
          }
          if (!index && !uText->chunkNativeStart) {
              // Already at the beginning; can't go any farther.
              uText->chunkOffset = 0;
--            return false;
-+            return UBool(0);
+-            return FALSE;
++            return false;
          }
      }
      
@@ -91,8 +80,8 @@ Index: qtwebkit-opensource-src/Source/WebCore/platform/text/icu/UTextProviderLat
  
      uText->nativeIndexingLimit = uText->chunkLength;
  
--    return true;
-+    return UBool(1);
+-    return TRUE;
++    return true;
  }
  
  static int32_t uTextLatin1Extract(UText* uText, int64_t start, int64_t limit, UChar* dest, int32_t destCapacity, UErrorCode* status)
@@ -100,8 +89,8 @@ Index: qtwebkit-opensource-src/Source/WebCore/platform/text/icu/UTextProviderLat
  static UBool uTextLatin1ContextAwareAccess(UText* text, int64_t nativeIndex, UBool forward)
  {
      if (!text->context)
--        return false;
-+        return UBool(0);
+-        return FALSE;
++        return false;
      int64_t nativeLength = uTextLatin1ContextAwareNativeLength(text);
      UBool isAccessible;
      if (uTextAccessInChunkOrOutOfRange(text, nativeIndex, nativeLength, forward, isAccessible))
@@ -109,21 +98,19 @@ Index: qtwebkit-opensource-src/Source/WebCore/platform/text/icu/UTextProviderLat
          ASSERT(newContext == UTextProviderContext::PriorContext);
          textLatin1ContextAwareSwitchToPriorContext(text, nativeIndex, nativeLength, forward);
      }
--    return true;
-+    return UBool(1);
+-    return TRUE;
++    return true;
  }
  
  static int32_t uTextLatin1ContextAwareExtract(UText*, int64_t, int64_t, UChar*, int32_t, UErrorCode* errorCode)
-Index: qtwebkit-opensource-src/Source/WebCore/platform/text/icu/UTextProviderUTF16.cpp
-===================================================================
---- qtwebkit-opensource-src.orig/Source/WebCore/platform/text/icu/UTextProviderUTF16.cpp
-+++ qtwebkit-opensource-src/Source/WebCore/platform/text/icu/UTextProviderUTF16.cpp
+--- a/Source/WebCore/platform/text/icu/UTextProviderUTF16.cpp
++++ b/Source/WebCore/platform/text/icu/UTextProviderUTF16.cpp
 @@ -125,7 +125,7 @@ static inline int64_t uTextUTF16ContextA
  static UBool uTextUTF16ContextAwareAccess(UText* text, int64_t nativeIndex, UBool forward)
  {
      if (!text->context)
--        return false;
-+        return UBool(0);
+-        return FALSE;
++        return false;
      int64_t nativeLength = uTextUTF16ContextAwareNativeLength(text);
      UBool isAccessible;
      if (uTextAccessInChunkOrOutOfRange(text, nativeIndex, nativeLength, forward, isAccessible))
@@ -131,8 +118,8 @@ Index: qtwebkit-opensource-src/Source/WebCore/platform/text/icu/UTextProviderUTF
          ASSERT(newContext == UTextProviderContext::PriorContext);
          textUTF16ContextAwareSwitchToPriorContext(text, nativeIndex, nativeLength, forward);
      }
--    return true;
-+    return UBool(1);
+-    return TRUE;
++    return true;
  }
  
  static int32_t uTextUTF16ContextAwareExtract(UText*, int64_t, int64_t, UChar*, int32_t, UErrorCode* errorCode)

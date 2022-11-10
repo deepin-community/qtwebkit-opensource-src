@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.212.0.2~alpha4+dde amd64
+# SymbolsHelper-Confirmed: 5.212.0.4 amd64 arm64
 libQt5WebKit.so.5 libqt5webkit5 #MINVER#
 * Build-Depends-Package: libqt5webkit5-dev
  Qt_5.0@Qt_5.0 5.212.0~alpha3
@@ -1651,6 +1651,144 @@ libQt5WebKit.so.5 libqt5webkit5 #MINVER#
  _ZN15QWebScriptWorldD1Ev@Qt_5 5.212.0~alpha3
  _ZN15QWebScriptWorldD2Ev@Qt_5 5.212.0~alpha3
  _ZN15QWebScriptWorldaSERKS_@Qt_5 5.212.0~alpha3
+ (arch=arm64)_ZN16QOpenGLFunctions10glCullFaceEj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions10glGetErrorEv@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions10glIsBufferEj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions10glIsShaderEj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions10glViewportEiiii@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions11glBlendFuncEjj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions11glColorMaskEhhhh@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions11glDepthFuncEj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions11glDepthMaskEh@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions11glFrontFaceEj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions11glGetFloatvEjPf@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions11glGetStringEj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions11glIsEnabledEj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions11glIsProgramEj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions11glIsTextureEj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions11glLineWidthEf@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions11glStencilOpEjjj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions11glUniform1fEif@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions11glUniform1iEii@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions11glUniform2fEiff@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions11glUniform2iEiii@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions11glUniform3fEifff@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions11glUniform3iEiiii@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions11glUniform4fEiffff@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions11glUniform4iEiiiii@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions12glBindBufferEjj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions12glBlendColorEffff@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions12glBufferDataEjlPKvj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions12glClearColorEffff@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions12glDrawArraysEjii@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions12glGenBuffersEiPj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions12glReadPixelsEiiiijjPv@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions12glTexImage2DEjiiiiijjPKv@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions12glUniform1fvEiiPKf@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions12glUniform1ivEiiPKi@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions12glUniform2fvEiiPKf@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions12glUniform2ivEiiPKi@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions12glUniform3fvEiiPKf@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions12glUniform3ivEiiPKi@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions12glUniform4fvEiiPKf@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions12glUniform4ivEiiPKi@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions12glUseProgramEj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions13glBindTextureEjj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions13glClearDepthfEf@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions13glDepthRangefEff@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions13glGenTexturesEiPj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions13glGetBooleanvEjPh@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions13glGetIntegervEjPi@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions13glGetShaderivEjjPi@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions13glLinkProgramEj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions13glPixelStoreiEji@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions13glStencilFuncEjij@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions13glStencilMaskEj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions14glAttachShaderEjj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions14glClearStencilEi@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions14glCreateShaderEj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions14glDeleteShaderEj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions14glDetachShaderEjj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions14glDrawElementsEjijPKv@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions14glGetProgramivEjjPi@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions14glGetUniformfvEjiPf@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions14glGetUniformivEjiPi@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions14glShaderSourceEjiPPKcPKi@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions15glActiveTextureEj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions15glBlendEquationEj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions15glBufferSubDataEjllPKv@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions15glCompileShaderEj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions15glCreateProgramEv@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions15glDeleteBuffersEiPKj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions15glDeleteProgramEj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions15glIsFramebufferEj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions15glPolygonOffsetEff@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions15glTexParameterfEjjf@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions15glTexParameteriEjji@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions15glTexSubImage2DEjiiiiijjPKv@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions16glCopyTexImage2DEjijiiiii@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions16glDeleteTexturesEiPKj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions16glGenerateMipmapEj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions16glIsRenderbufferEj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions16glSampleCoverageEfh@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions16glVertexAttrib1fEjf@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions16glVertexAttrib2fEjff@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions16glVertexAttrib3fEjfff@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions16glVertexAttrib4fEjffff@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions17glBindFramebufferEjj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions17glGenFramebuffersEiPj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions17glGetActiveAttribEjjiPiS0_PjPc@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions17glValidateProgramEj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions17glVertexAttrib1fvEjPKf@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions17glVertexAttrib2fvEjPKf@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions17glVertexAttrib3fvEjPKf@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions17glVertexAttrib4fvEjPKf@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions18glBindRenderbufferEjj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions18glGenRenderbuffersEiPj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions18glGetActiveUniformEjjiPiS0_PjPc@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions18glGetShaderInfoLogEjiPiPc@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions18glUniformMatrix2fvEiihPKf@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions18glUniformMatrix3fvEiihPKf@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions18glUniformMatrix4fvEiihPKf@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions19glBlendFuncSeparateEjjjj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions19glCopyTexSubImage2DEjiiiiiii@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions19glGetAttribLocationEjPKc@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions19glGetProgramInfoLogEjiPiPc@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions19glGetTexParameterfvEjjPf@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions19glGetTexParameterivEjjPi@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions19glGetVertexAttribfvEjjPf@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions19glGetVertexAttribivEjjPi@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions19glStencilOpSeparateEjjjj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions20glBindAttribLocationEjjPKc@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions20glDeleteFramebuffersEiPKj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions20glGetAttachedShadersEjiPiPj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions20glGetUniformLocationEjPKc@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions21glDeleteRenderbuffersEiPKj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions21glRenderbufferStorageEjjii@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions21glStencilFuncSeparateEjjij@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions21glStencilMaskSeparateEjj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions21glVertexAttribPointerEjijhiPKv@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions22glCompressedTexImage2DEjijiiiiPKv@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions22glFramebufferTexture2DEjjjji@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions22glGetBufferParameterivEjjPi@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions23glBlendEquationSeparateEjj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions23glReleaseShaderCompilerEv@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions24glCheckFramebufferStatusEj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions25glCompressedTexSubImage2DEjiiiiijiPKv@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions25glEnableVertexAttribArrayEj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions25glFramebufferRenderbufferEjjjj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions25glGetVertexAttribPointervEjjPPv@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions26glDisableVertexAttribArrayEj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions26glGetShaderPrecisionFormatEjjPiS0_@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions28glGetRenderbufferParameterivEjjPi@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions37glGetFramebufferAttachmentParameterivEjjjPi@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions6glHintEjj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions7glClearEj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions7glFlushEv@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions8glEnableEj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions8glFinishEv@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions9glDisableEj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN16QOpenGLFunctions9glScissorEiiii@Qt_5 5.212.0.4
  _ZN16QWebDownloadItem11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.212.0~alpha3
  _ZN16QWebDownloadItem11qt_metacastEPKc@Qt_5 5.212.0~alpha3
  _ZN16QWebDownloadItem16staticMetaObjectE@Qt_5 5.212.0~alpha3
@@ -1783,6 +1921,12 @@ libQt5WebKit.so.5 libqt5webkit5 #MINVER#
  _ZN20QWebHistoryInterfaceD0Ev@Qt_5 5.212.0~alpha3
  _ZN20QWebHistoryInterfaceD1Ev@Qt_5 5.212.0~alpha3
  _ZN20QWebHistoryInterfaceD2Ev@Qt_5 5.212.0~alpha3
+ (arch=arm64)_ZN21QOpenGLExtraFunctions13glDrawBuffersEiPKj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN21QOpenGLExtraFunctions17glBlitFramebufferEiiiiiiiijj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN21QOpenGLExtraFunctions21glDrawArraysInstancedEjiii@Qt_5 5.212.0.4
+ (arch=arm64)_ZN21QOpenGLExtraFunctions21glVertexAttribDivisorEjj@Qt_5 5.212.0.4
+ (arch=arm64)_ZN21QOpenGLExtraFunctions23glDrawElementsInstancedEjijPKvi@Qt_5 5.212.0.4
+ (arch=arm64)_ZN21QOpenGLExtraFunctions32glRenderbufferStorageMultisampleEjijii@Qt_5 5.212.0.4
  _ZN21QQuickWebViewAttached11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.212.0~alpha3
  _ZN21QQuickWebViewAttached11qt_metacastEPKc@Qt_5 5.212.0~alpha3
  _ZN21QQuickWebViewAttached11viewChangedEv@Qt_5 5.212.0~alpha3
@@ -1964,7 +2108,24 @@ libQt5WebKit.so.5 libqt5webkit5 #MINVER#
  _ZN6WebKit21DatabaseProcessMainQtEiPPc@Qt_5 5.212.0~alpha3
  _ZN6WebKit24setImagePlatformResourceEPKcRK7QPixmap@Qt_5 5.212.0~alpha3
  _ZN6WebKit28setWebKitWidgetsInitCallbackEPFPN7WebCore12QStyleFacadeEP15QWebPageAdapterE@Qt_5 5.212.0~alpha3
+ (arch=arm64)_ZN7QString5clearEv@Qt_5 5.212.0.4
+ (arch=arm64)_ZN7QStringixEi@Qt_5 5.212.0.4
  _ZN7WebCore19initializeWebCoreQtEv@Qt_5 5.212.0~alpha3
+ (arch=arm64)_ZN9QHashData8willGrowEv@Qt_5 5.212.0.4
+ (arch=arm64)_ZN9QHashData9firstNodeEv@Qt_5 5.212.0.4
+ (arch=arm64)_ZN9QHashData9hasShrunkEv@Qt_5 5.212.0.4
+ (arch=arm64)_ZNK10QTransform10isIdentityEv@Qt_5 5.212.0.4
+ (arch=arm64)_ZNK10QTransform2dxEv@Qt_5 5.212.0.4
+ (arch=arm64)_ZNK10QTransform2dyEv@Qt_5 5.212.0.4
+ (arch=arm64)_ZNK10QTransform3m11Ev@Qt_5 5.212.0.4
+ (arch=arm64)_ZNK10QTransform3m12Ev@Qt_5 5.212.0.4
+ (arch=arm64)_ZNK10QTransform3m13Ev@Qt_5 5.212.0.4
+ (arch=arm64)_ZNK10QTransform3m21Ev@Qt_5 5.212.0.4
+ (arch=arm64)_ZNK10QTransform3m22Ev@Qt_5 5.212.0.4
+ (arch=arm64)_ZNK10QTransform3m23Ev@Qt_5 5.212.0.4
+ (arch=arm64)_ZNK10QTransform3m31Ev@Qt_5 5.212.0.4
+ (arch=arm64)_ZNK10QTransform3m32Ev@Qt_5 5.212.0.4
+ (arch=arm64)_ZNK10QTransform3m33Ev@Qt_5 5.212.0.4
  _ZNK10UndoStepQt4textEv@Qt_5 5.212.0~alpha3
  _ZNK11QWebElement10firstChildEv@Qt_5 5.212.0~alpha3
  _ZNK11QWebElement10toInnerXmlEv@Qt_5 5.212.0~alpha3
@@ -2241,8 +2402,18 @@ libQt5WebKit.so.5 libqt5webkit5 #MINVER#
  _ZNK25QQuickWebViewExperimental29preferredMinimumContentsWidthEv@Qt_5 5.212.0~alpha3
  _ZNK25QQuickWebViewExperimental9userAgentEv@Qt_5 5.212.0~alpha3
  _ZNK25QWebNotificationPresenter10metaObjectEv@Qt_5 5.212.0~alpha3
+ (arch=arm64)_ZNK6QColor7isValidEv@Qt_5 5.212.0.4
+ (arch=arm64)_ZNK7QString3argEiii5QChar@Qt_5 5.212.0.4
+ (arch=arm64)_ZNK7QString3argEjii5QChar@Qt_5 5.212.0.4
+ (arch=arm64)_ZNK7QString7sectionE5QCharii6QFlagsINS_11SectionFlagEE@Qt_5 5.212.0.4
+ (optional=templinst|arch=arm64)_ZNKSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EE14_M_lower_boundEPKSt13_Rb_tree_nodeIS5_EPKSt18_Rb_tree_node_baseRKS5_@Qt_5 5.212.0.4
  (optional=templinst)_ZNKSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EE4findERKS5_@Qt_5 5.212.0~alpha3
+ (optional=templinst|arch=arm64)_ZNKSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_9TBehaviorESt10_Select1stIS9_ESt4lessIS5_ESaIS9_EE14_M_lower_boundEPKSt13_Rb_tree_nodeIS9_EPKSt18_Rb_tree_node_baseRS7_@Qt_5 5.212.0.4
  (optional=templinst)_ZNKSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_9TBehaviorESt10_Select1stIS9_ESt4lessIS5_ESaIS9_EE4findERS7_@Qt_5 5.212.0~alpha3
+ (optional=templinst|arch=arm64)_ZNKSt8_Rb_treeIiSt4pairIKiiESt10_Select1stIS2_ESt4lessIiESaIS2_EE14_M_lower_boundEPKSt13_Rb_tree_nodeIS2_EPKSt18_Rb_tree_node_baseRS1_@Qt_5 5.212.0.4
+ (optional=templinst|arch=arm64)_ZNKSt8_Rb_treeIiSt4pairIKiiESt10_Select1stIS2_ESt4lessIiESaIS2_EE4findERS1_@Qt_5 5.212.0.4
+ (optional=templinst|arch=arm64)_ZNKSt8_Rb_treeIiiSt9_IdentityIiESt4lessIiESaIiEE14_M_lower_boundEPKSt13_Rb_tree_nodeIiEPKSt18_Rb_tree_node_baseRKi@Qt_5 5.212.0.4
+ (optional=templinst|arch=arm64)_ZNKSt8_Rb_treeIiiSt9_IdentityIiESt4lessIiESaIiEE4findERKi@Qt_5 5.212.0.4
  (optional=templinst|arch=sh4)_ZNKSt8functionIFvN6WebKit12CallbackBase5ErrorEEEclES2_@Qt_5 5.212.0~alpha3
  (optional=templinst|arch=sh4)_ZNKSt8functionIFvN7WebCore12PolicyActionEEEclES1_@Qt_5 5.212.0~alpha3
  (optional=templinst|arch=sh4)_ZNKSt8functionIFvN7WebCore15HysteresisStateEEEclES1_@Qt_5 5.212.0~alpha3
@@ -2253,27 +2424,67 @@ libQt5WebKit.so.5 libqt5webkit5 #MINVER#
  (optional=templinst|arch=sh4)_ZNKSt8functionIFvyEEclEy@Qt_5 5.212.0~alpha3
  (optional=templinst|arch=armhf hurd-i386 i386 mips mipsel)_ZNSt10_HashtableIxSt4pairIKxPdESaIS3_ENSt8__detail10_Select1stESt8equal_toIxESt4hashIxENS5_18_Mod_range_hashingENS5_20_Default_ranged_hashENS5_20_Prime_rehash_policyENS5_17_Hashtable_traitsILb0ELb0ELb1EEEED1Ev@Qt_5 5.212.0~alpha3
  (optional=templinst|arch=armhf hurd-i386 i386 mips mipsel)_ZNSt10_HashtableIxSt4pairIKxPdESaIS3_ENSt8__detail10_Select1stESt8equal_toIxESt4hashIxENS5_18_Mod_range_hashingENS5_20_Default_ranged_hashENS5_20_Prime_rehash_policyENS5_17_Hashtable_traitsILb0ELb0ELb1EEEED2Ev@Qt_5 5.212.0~alpha3
+ (arch=arm64)_ZNSt19_Sp_make_shared_tag5_S_tiEv@Qt_5 5.212.0.4
  (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE17_M_realloc_insertIJRKS5_EEEvN9__gnu_cxx17__normal_iteratorIPS5_S7_EEDpOT_@Qt_5 5.212.0~alpha3
+ (arch=arm64)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EEaSERKS7_@Qt_5 5.212.0.4
+ (optional=templinst|arch=arm64)_ZNSt6vectorIiSaIiEE12emplace_backIJiEEEvDpOT_@Qt_5 5.212.0.4
  (optional=templinst)_ZNSt6vectorIiSaIiEE17_M_realloc_insertIJiEEEvN9__gnu_cxx17__normal_iteratorIPiS1_EEDpOT_@Qt_5 5.212.0~alpha3
+ (optional=templinst|arch=arm64)_ZNSt6vectorIiSaIiEE7reserveEm@Qt_5 5.212.0.4
  (optional=templinst|subst)_ZNSt6vectorIjSaIjEE14_M_fill_insertEN9__gnu_cxx17__normal_iteratorIPjS1_EE{size_t}RKj@Qt_5 5.212.0~alpha3
+ (optional=templinst|arch=arm64)_ZNSt6vectorImSaImEE12emplace_backIJmEEEvDpOT_@Qt_5 5.212.0.4
+ (optional=templinst|arch=arm64)_ZNSt6vectorImSaImEE7reserveEm@Qt_5 5.212.0.4
  (optional=templinst|subst)_ZNSt6vectorI{size_t}SaI{size_t}EE17_M_realloc_insertIJRK{size_t}EEEvN9__gnu_cxx17__normal_iteratorIP{size_t}S1_EEDpOT_@Qt_5 5.212.0~alpha3
  (optional=templinst|subst)_ZNSt6vectorI{size_t}SaI{size_t}EE17_M_realloc_insertIJ{size_t}EEEvN9__gnu_cxx17__normal_iteratorIP{size_t}S1_EEDpOT_@Qt_5 5.212.0~alpha3
+ (optional=templinst|arch=arm64)_ZNSt8_Rb_treeIN7WebCore21WheelEventTestTrigger22DeferTestTriggerReasonES2_St9_IdentityIS2_ESt4lessIS2_ESaIS2_EE10_M_insert_IRKS2_NS8_11_Alloc_nodeEEESt17_Rb_tree_iteratorIS2_EPSt18_Rb_tree_node_baseSG_OT_RT0_@Qt_5 5.212.0.4
+ (optional=templinst|arch=arm64)_ZNSt8_Rb_treeIN7WebCore21WheelEventTestTrigger22DeferTestTriggerReasonES2_St9_IdentityIS2_ESt4lessIS2_ESaIS2_EE11equal_rangeERKS2_@Qt_5 5.212.0.4
+ (optional=templinst|arch=arm64)_ZNSt8_Rb_treeIN7WebCore21WheelEventTestTrigger22DeferTestTriggerReasonES2_St9_IdentityIS2_ESt4lessIS2_ESaIS2_EE12_M_erase_auxESt23_Rb_tree_const_iteratorIS2_E@Qt_5 5.212.0.4
+ (optional=templinst|arch=arm64)_ZNSt8_Rb_treeIN7WebCore21WheelEventTestTrigger22DeferTestTriggerReasonES2_St9_IdentityIS2_ESt4lessIS2_ESaIS2_EE12_M_erase_auxESt23_Rb_tree_const_iteratorIS2_ESA_@Qt_5 5.212.0.4
+ (optional=templinst|arch=arm64)_ZNSt8_Rb_treeIN7WebCore21WheelEventTestTrigger22DeferTestTriggerReasonES2_St9_IdentityIS2_ESt4lessIS2_ESaIS2_EE14_M_lower_boundEPSt13_Rb_tree_nodeIS2_EPSt18_Rb_tree_node_baseRKS2_@Qt_5 5.212.0.4
+ (optional=templinst|arch=arm64)_ZNSt8_Rb_treeIN7WebCore21WheelEventTestTrigger22DeferTestTriggerReasonES2_St9_IdentityIS2_ESt4lessIS2_ESaIS2_EE14_M_upper_boundEPSt13_Rb_tree_nodeIS2_EPSt18_Rb_tree_node_baseRKS2_@Qt_5 5.212.0.4
  (optional=templinst)_ZNSt8_Rb_treeIN7WebCore21WheelEventTestTrigger22DeferTestTriggerReasonES2_St9_IdentityIS2_ESt4lessIS2_ESaIS2_EE16_M_insert_uniqueIRKS2_EESt4pairISt17_Rb_tree_iteratorIS2_EbEOT_@Qt_5 5.212.0~alpha3
- (optional=templinst|arch=sh4)_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EE10_M_insert_IRKS5_NSB_11_Alloc_nodeEEESt17_Rb_tree_iteratorIS5_EPSt18_Rb_tree_node_baseSJ_OT_RT0_@Qt_5 5.212.0~alpha3
+ (optional=templinst|arch=arm64)_ZNSt8_Rb_treeIN7WebCore21WheelEventTestTrigger22DeferTestTriggerReasonES2_St9_IdentityIS2_ESt4lessIS2_ESaIS2_EE24_M_get_insert_unique_posERKS2_@Qt_5 5.212.0.4
+ (arch=arm64)_ZNSt8_Rb_treeIN7WebCore21WheelEventTestTrigger22DeferTestTriggerReasonES2_St9_IdentityIS2_ESt4lessIS2_ESaIS2_EE5eraseERKS2_@Qt_5 5.212.0.4
+ (arch=arm64)_ZNSt8_Rb_treeIN7WebCore21WheelEventTestTrigger22DeferTestTriggerReasonES2_St9_IdentityIS2_ESt4lessIS2_ESaIS2_EE8_M_eraseEPSt13_Rb_tree_nodeIS2_E@Qt_5 5.212.0.4
+ (optional=templinst|arch=arm64 sh4)_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EE10_M_insert_IRKS5_NSB_11_Alloc_nodeEEESt17_Rb_tree_iteratorIS5_EPSt18_Rb_tree_node_baseSJ_OT_RT0_@Qt_5 5.212.0~alpha3
  (optional=templinst|arch=!sh4)_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EE16_M_insert_uniqueIRKS5_EESt4pairISt17_Rb_tree_iteratorIS5_EbEOT_@Qt_5 5.212.0~alpha3
- (optional=templinst|arch=sh4)_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EE24_M_get_insert_unique_posERKS5_@Qt_5 5.212.0~alpha3
- (optional=templinst|arch=sh4)_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_9TBehaviorESt10_Select1stIS9_ESt4lessIS5_ESaIS9_EE14_M_lower_boundEPSt13_Rb_tree_nodeIS9_EPSt18_Rb_tree_node_baseRS7_@Qt_5 5.212.0~alpha3
- (optional=templinst|arch=sh4)_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_9TBehaviorESt10_Select1stIS9_ESt4lessIS5_ESaIS9_EE22_M_emplace_hint_uniqueIJRKSt21piecewise_construct_tSt5tupleIJOS5_EESK_IJEEEEESt17_Rb_tree_iteratorIS9_ESt23_Rb_tree_const_iteratorIS9_EDpOT_@Qt_5 5.212.0~alpha3
+ (optional=templinst|arch=arm64 sh4)_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EE24_M_get_insert_unique_posERKS5_@Qt_5 5.212.0~alpha3
+ (arch=arm64)_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EE8_M_eraseEPSt13_Rb_tree_nodeIS5_E@Qt_5 5.212.0.4
+ (optional=templinst|arch=arm64)_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_9TBehaviorESt10_Select1stIS9_ESt4lessIS5_ESaIS9_EE14_M_insert_nodeEPSt18_Rb_tree_node_baseSH_PSt13_Rb_tree_nodeIS9_E@Qt_5 5.212.0.4
+ (optional=templinst|arch=arm64 sh4)_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_9TBehaviorESt10_Select1stIS9_ESt4lessIS5_ESaIS9_EE14_M_lower_boundEPSt13_Rb_tree_nodeIS9_EPSt18_Rb_tree_node_baseRS7_@Qt_5 5.212.0~alpha3
+ (optional=templinst|arch=arm64 sh4)_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_9TBehaviorESt10_Select1stIS9_ESt4lessIS5_ESaIS9_EE22_M_emplace_hint_uniqueIJRKSt21piecewise_construct_tSt5tupleIJOS5_EESK_IJEEEEESt17_Rb_tree_iteratorIS9_ESt23_Rb_tree_const_iteratorIS9_EDpOT_@Qt_5 5.212.0~alpha3
  (optional=templinst)_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_9TBehaviorESt10_Select1stIS9_ESt4lessIS5_ESaIS9_EE24_M_get_insert_unique_posERS7_@Qt_5 5.212.0~alpha3
  (optional=templinst)_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_9TBehaviorESt10_Select1stIS9_ESt4lessIS5_ESaIS9_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS9_ERS7_@Qt_5 5.212.0~alpha3
- (optional=templinst)_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_9TBehaviorESt10_Select1stIS9_ESt4lessIS5_ESaIS9_EE4findERS7_@Qt_5 5.212.0.2~alpha4+dde
- (optional=templinst|arch=sh4)_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S5_ESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE14_M_lower_boundEPSt13_Rb_tree_nodeIS8_EPSt18_Rb_tree_node_baseRS7_@Qt_5 5.212.0~alpha3
+ (optional=templinst)_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_9TBehaviorESt10_Select1stIS9_ESt4lessIS5_ESaIS9_EE4findERS7_@Qt_5 5.212.0.4
+ (arch=arm64)_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_9TBehaviorESt10_Select1stIS9_ESt4lessIS5_ESaIS9_EE8_M_eraseEPSt13_Rb_tree_nodeIS9_E@Qt_5 5.212.0.4
+ (optional=templinst|arch=arm64)_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S5_ESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE14_M_insert_nodeEPSt18_Rb_tree_node_baseSG_PSt13_Rb_tree_nodeIS8_E@Qt_5 5.212.0.4
+ (optional=templinst|arch=arm64 sh4)_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S5_ESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE14_M_lower_boundEPSt13_Rb_tree_nodeIS8_EPSt18_Rb_tree_node_baseRS7_@Qt_5 5.212.0~alpha3
+ (arch=arm64)_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S5_ESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_emplace_hint_uniqueIJRKSt21piecewise_construct_tSt5tupleIJOS5_EESJ_IJEEEEESt17_Rb_tree_iteratorIS8_ESt23_Rb_tree_const_iteratorIS8_EDpOT_@Qt_5 5.212.0.4
  (optional=templinst)_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S5_ESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE24_M_get_insert_unique_posERS7_@Qt_5 5.212.0~alpha3
  (optional=templinst)_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S5_ESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS8_ERS7_@Qt_5 5.212.0~alpha3
+ (optional=templinst|arch=arm64)_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S5_ESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE4findERS7_@Qt_5 5.212.0.4
+ (arch=arm64)_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S5_ESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E@Qt_5 5.212.0.4
+ (optional=templinst|arch=arm64)_ZNSt8_Rb_treeIiSt4pairIKiiESt10_Select1stIS2_ESt4lessIiESaIS2_EE14_M_insert_nodeEPSt18_Rb_tree_node_baseSA_PSt13_Rb_tree_nodeIS2_E@Qt_5 5.212.0.4
+ (optional=templinst|arch=arm64)_ZNSt8_Rb_treeIiSt4pairIKiiESt10_Select1stIS2_ESt4lessIiESaIS2_EE14_M_lower_boundEPSt13_Rb_tree_nodeIS2_EPSt18_Rb_tree_node_baseRS1_@Qt_5 5.212.0.4
+ (optional=templinst|arch=arm64)_ZNSt8_Rb_treeIiSt4pairIKiiESt10_Select1stIS2_ESt4lessIiESaIS2_EE22_M_emplace_hint_uniqueIJRKSt21piecewise_construct_tSt5tupleIJOiEESD_IJEEEEESt17_Rb_tree_iteratorIS2_ESt23_Rb_tree_const_iteratorIS2_EDpOT_@Qt_5 5.212.0.4
  (optional=templinst)_ZNSt8_Rb_treeIiSt4pairIKiiESt10_Select1stIS2_ESt4lessIiESaIS2_EE24_M_get_insert_unique_posERS1_@Qt_5 5.212.0~alpha3
  (optional=templinst|arch=amd64 arm64 hppa mips64el ppc64el riscv64 sh4 x32)_ZNSt8_Rb_treeIiSt4pairIKiiESt10_Select1stIS2_ESt4lessIiESaIS2_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS2_ERS1_@Qt_5 5.212.0~alpha3
- (optional=templinst|arch=sh4)_ZNSt8__detail14__to_chars_lenIjEEjT_i@Qt_5 5.212.0~alpha4
- (optional=templinst|arch=mipsel sh4)_ZNSt8__detail18__to_chars_10_implIjEEvPcjT_@Qt_5 5.212.0~alpha4
+ (arch=arm64)_ZNSt8_Rb_treeIiSt4pairIKiiESt10_Select1stIS2_ESt4lessIiESaIS2_EE8_M_eraseEPSt13_Rb_tree_nodeIS2_E@Qt_5 5.212.0.4
+ (optional=templinst|arch=arm64)_ZNSt8_Rb_treeIiiSt9_IdentityIiESt4lessIiESaIiEE10_M_insert_IRKiNS5_11_Alloc_nodeEEESt17_Rb_tree_iteratorIiEPSt18_Rb_tree_node_baseSD_OT_RT0_@Qt_5 5.212.0.4
+ (optional=templinst|arch=arm64)_ZNSt8_Rb_treeIiiSt9_IdentityIiESt4lessIiESaIiEE10_M_insert_IiNS5_11_Alloc_nodeEEESt17_Rb_tree_iteratorIiEPSt18_Rb_tree_node_baseSB_OT_RT0_@Qt_5 5.212.0.4
+ (optional=templinst|arch=arm64)_ZNSt8_Rb_treeIiiSt9_IdentityIiESt4lessIiESaIiEE14_M_lower_boundEPSt13_Rb_tree_nodeIiEPSt18_Rb_tree_node_baseRKi@Qt_5 5.212.0.4
+ (arch=arm64)_ZNSt8_Rb_treeIiiSt9_IdentityIiESt4lessIiESaIiEE16_M_insert_uniqueIRKiEESt4pairISt17_Rb_tree_iteratorIiEbEOT_@Qt_5 5.212.0.4
+ (arch=arm64)_ZNSt8_Rb_treeIiiSt9_IdentityIiESt4lessIiESaIiEE16_M_insert_uniqueIiEESt4pairISt17_Rb_tree_iteratorIiEbEOT_@Qt_5 5.212.0.4
+ (optional=templinst|arch=arm64)_ZNSt8_Rb_treeIiiSt9_IdentityIiESt4lessIiESaIiEE24_M_get_insert_unique_posERKi@Qt_5 5.212.0.4
+ (optional=templinst|arch=arm64)_ZNSt8_Rb_treeIiiSt9_IdentityIiESt4lessIiESaIiEE4findERKi@Qt_5 5.212.0.4
+ (arch=arm64)_ZNSt8_Rb_treeIiiSt9_IdentityIiESt4lessIiESaIiEE8_M_eraseEPSt13_Rb_tree_nodeIiE@Qt_5 5.212.0.4
+ (optional=templinst|arch=arm64)_ZNSt8_Rb_treeIjjSt9_IdentityIjESt4lessIjESaIjEE10_M_insert_IRKjNS5_11_Alloc_nodeEEESt17_Rb_tree_iteratorIjEPSt18_Rb_tree_node_baseSD_OT_RT0_@Qt_5 5.212.0.4
+ (optional=templinst|arch=arm64)_ZNSt8_Rb_treeIjjSt9_IdentityIjESt4lessIjESaIjEE14_M_lower_boundEPSt13_Rb_tree_nodeIjEPSt18_Rb_tree_node_baseRKj@Qt_5 5.212.0.4
+ (arch=arm64)_ZNSt8_Rb_treeIjjSt9_IdentityIjESt4lessIjESaIjEE16_M_insert_uniqueIRKjEESt4pairISt17_Rb_tree_iteratorIjEbEOT_@Qt_5 5.212.0.4
+ (optional=templinst|arch=arm64)_ZNSt8_Rb_treeIjjSt9_IdentityIjESt4lessIjESaIjEE24_M_get_insert_unique_posERKj@Qt_5 5.212.0.4
+ (optional=templinst|arch=arm64)_ZNSt8_Rb_treeIjjSt9_IdentityIjESt4lessIjESaIjEE4findERKj@Qt_5 5.212.0.4
+ (arch=arm64)_ZNSt8_Rb_treeIjjSt9_IdentityIjESt4lessIjESaIjEE8_M_eraseEPSt13_Rb_tree_nodeIjE@Qt_5 5.212.0.4
+ (optional=templinst|arch=arm64 sh4)_ZNSt8__detail14__to_chars_lenIjEEjT_i@Qt_5 5.212.0~alpha4
+ (optional=templinst|arch=arm64 mipsel sh4)_ZNSt8__detail18__to_chars_10_implIjEEvPcjT_@Qt_5 5.212.0~alpha4
  (optional=templinst|arch=sh4)_ZNSt8functionIFvN6WebKit12CallbackBase5ErrorEEEC1ERKS4_@Qt_5 5.212.0~alpha3
  (optional=templinst|arch=sh4)_ZNSt8functionIFvN6WebKit12CallbackBase5ErrorEEEC2ERKS4_@Qt_5 5.212.0~alpha3
  (optional=templinst|arch=sh4)_ZNSt8functionIFvN7WebCore12PolicyActionEEEC1ERKS3_@Qt_5 5.212.0~alpha3
@@ -2362,7 +2573,25 @@ libQt5WebKit.so.5 libqt5webkit5 #MINVER#
  (optional=templinst|arch=sh4)_ZNSt8functionIFvvEEC2IZN7WebCore9IDBClient24TransactionOperationImplIJRKNS3_18IDBObjectStoreInfoEEEC4ERNS4_14IDBTransactionEMSA_FvRKNS3_13IDBResultDataEEMSA_FvRNS4_20TransactionOperationES8_ES8_EUlvE_vvEET_@Qt_5 5.212.0~alpha3
  (optional=templinst|arch=sh4)_ZNSt8functionIFvvEEC2IZN7WebCore9IDBClient24TransactionOperationImplIJRKyEEC4ERNS4_14IDBTransactionERNS4_10IDBRequestEMS9_FvSC_RKNS3_13IDBResultDataEEMS9_FvRNS4_20TransactionOperationES7_ES7_EUlvE_vvEET_@Qt_5 5.212.0~alpha3
  (optional=templinst|arch=sh4)_ZNSt8functionIFvvEEC2IZN7WebCore9IDBClient24TransactionOperationImplIJRKyRKN3WTF6StringEEEC4ERNS4_14IDBTransactionEMSD_FvRKNS3_13IDBResultDataEEMSD_FvRNS4_20TransactionOperationES7_SB_ES7_SB_EUlvE_vvEET_@Qt_5 5.212.0~alpha3
- (optional=templinst|arch=sh4)_ZSt9__reverseIPhEvT_S1_St26random_access_iterator_tag@Qt_5 5.212.0~alpha3
+ (optional=templinst|arch=arm64)_ZSt10__invoke_rIvRPFvbEJbEENSt9enable_ifIXsrSt6__and_IJSt7is_voidIT_ESt14__is_invocableIT0_JDpT1_EEEE5valueES6_E4typeEOS9_DpOSA_@Qt_5 5.212.0.4
+ (optional=templinst|arch=arm64)_ZSt10__invoke_rIvRPFvvEJEENSt9enable_ifIXsrSt6__and_IJSt7is_voidIT_ESt14__is_invocableIT0_JDpT1_EEEE5valueES6_E4typeEOS9_DpOSA_@Qt_5 5.212.0.4
+ (optional=templinst|arch=arm64)_ZSt12__miter_baseIPiEDTcl12__miter_basecldtfp_4baseEEESt13move_iteratorIT_E@Qt_5 5.212.0.4
+ (optional=templinst|arch=arm64)_ZSt12__miter_baseIPjEDTcl12__miter_basecldtfp_4baseEEESt13move_iteratorIT_E@Qt_5 5.212.0.4
+ (optional=templinst|arch=arm64)_ZSt12__miter_baseIPmEDTcl12__miter_basecldtfp_4baseEEESt13move_iteratorIT_E@Qt_5 5.212.0.4
+ (optional=templinst|arch=arm64)_ZSt12__niter_baseIPKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt6vectorIS5_SaIS5_EEET_N9__gnu_cxx17__normal_iteratorISB_T0_EE@Qt_5 5.212.0.4
+ (optional=templinst|arch=arm64)_ZSt12__niter_baseIPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt6vectorIS5_SaIS5_EEET_N9__gnu_cxx17__normal_iteratorISA_T0_EE@Qt_5 5.212.0.4
+ (optional=templinst|arch=arm64)_ZSt13binary_searchIPKjjEbT_S2_RKT0_@Qt_5 5.212.0.4
+ (optional=templinst|arch=arm64)_ZSt13binary_searchIPKttEbT_S2_RKT0_@Qt_5 5.212.0.4
+ (optional=templinst|arch=arm64)_ZSt18__allocate_guardedISaISt23_Sp_counted_ptr_inplaceISt5mutexSaIS1_ELN9__gnu_cxx12_Lock_policyE2EEEESt15__allocated_ptrIT_ERS8_@Qt_5 5.212.0.4
+ (optional=templinst|arch=arm64)_ZSt9__reverseIPaEvT_S1_St26random_access_iterator_tag@Qt_5 5.212.0.4
+ (optional=templinst|arch=arm64)_ZSt9__reverseIPdEvT_S1_St26random_access_iterator_tag@Qt_5 5.212.0.4
+ (optional=templinst|arch=arm64)_ZSt9__reverseIPfEvT_S1_St26random_access_iterator_tag@Qt_5 5.212.0.4
+ (optional=templinst|arch=arm64 sh4)_ZSt9__reverseIPhEvT_S1_St26random_access_iterator_tag@Qt_5 5.212.0~alpha3
+ (optional=templinst|arch=arm64)_ZSt9__reverseIPiEvT_S1_St26random_access_iterator_tag@Qt_5 5.212.0.4
+ (optional=templinst|arch=arm64)_ZSt9__reverseIPjEvT_S1_St26random_access_iterator_tag@Qt_5 5.212.0.4
+ (optional=templinst|arch=arm64)_ZSt9__reverseIPsEvT_S1_St26random_access_iterator_tag@Qt_5 5.212.0.4
+ (optional=templinst|arch=arm64)_ZSt9__reverseIPtEvT_S1_St26random_access_iterator_tag@Qt_5 5.212.0.4
+ (arch=arm64)_ZStplIcSt11char_traitsIcESaIcEENSt7__cxx1112basic_stringIT_T0_T1_EERKS8_SA_@Qt_5 5.212.0.4
  _ZTI17QWebPluginFactory@Qt_5 5.212.0~alpha3
  _ZTI20QWebHistoryInterface@Qt_5 5.212.0~alpha3
  _ZTISt9bad_alloc@Qt_5 5.212.0~alpha3
@@ -2374,6 +2603,7 @@ libQt5WebKit.so.5 libqt5webkit5 #MINVER#
  _ZTV11QWebKitTest@Qt_5 5.212.0~alpha3
  _ZTV13QQuickWebPage@Qt_5 5.212.0~alpha3
  _ZTV13QQuickWebView@Qt_5 5.212.0~alpha3
+ (arch=arm64)_ZTV14QWebSelectData@Qt_5 5.212.0.4
  _ZTV15QWebLoadRequest@Qt_5 5.212.0~alpha3
  _ZTV15QWebPageAdapter@Qt_5 5.212.0~alpha3
  _ZTV15QWebPreferences@Qt_5 5.212.0~alpha3
@@ -2388,6 +2618,7 @@ libQt5WebKit.so.5 libqt5webkit5 #MINVER#
  _ZTV19QtWebSecurityOrigin@Qt_5 5.212.0~alpha3
  _ZTV20QQuickNetworkRequest@Qt_5 5.212.0~alpha3
  _ZTV20QWebHistoryInterface@Qt_5 5.212.0~alpha3
+ (arch=arm64)_ZTV20QWebNotificationData@Qt_5 5.212.0.4
  _ZTV21QQuickWebViewAttached@Qt_5 5.212.0~alpha3
  _ZTV21QWebIconImageProvider@Qt_5 5.212.0~alpha3
  _ZTV21QWebNavigationHistory@Qt_5 5.212.0~alpha3
@@ -2400,11 +2631,13 @@ libQt5WebKit.so.5 libqt5webkit5 #MINVER#
  _ZTV25QQuickWebViewExperimental@Qt_5 5.212.0~alpha3
  _ZTV25QWebNotificationPresenter@Qt_5 5.212.0~alpha3
  (arch=!ppc64el !s390x)_ZTVNSt6thread11_State_implINS_8_InvokerISt5tupleIJPFvPN7bmalloc9AsyncTaskINS3_4HeapEMS5_FvvEEEES9_EEEEEE@Qt_5 5.212.0~alpha3
+ (arch=arm64)_ZTVSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Qt_5 5.212.0.4
  (arch=armel riscv64)_ZTVSt23_Sp_counted_ptr_inplaceISt5mutexSaIS0_ELN9__gnu_cxx12_Lock_policyE1EE@Qt_5 5.212.0~alpha4
  (arch=!armel !ppc64el !riscv64 !s390x)_ZTVSt23_Sp_counted_ptr_inplaceISt5mutexSaIS0_ELN9__gnu_cxx12_Lock_policyE2EE@Qt_5 5.212.0~alpha3
  (arch=!ppc64el !s390x)_ZZNSt19_Sp_make_shared_tag5_S_tiEvE5__tag@Qt_5 5.212.0~alpha3
- (optional=templinst)_ZZNSt8__detail18__to_chars_10_implIjEEvPcjT_E8__digits@Qt_5 5.212.0.2~alpha4+dde
- (optional=templinst)_ZZNSt9once_flag18_Prepare_executionC4IZSt9call_onceIZN7bmalloc16PerThreadStorageINS3_5CacheEE4initEPvPFvS7_EEUlvE_JEEvRS_OT_DpOT0_EUlvE_EERSC_ENUlvE_4_FUNEv@Qt_5 5.212.0.2~alpha4+dde
+ (optional=templinst)_ZZNSt8__detail18__to_chars_10_implIjEEvPcjT_E8__digits@Qt_5 5.212.0.4
+ (optional=templinst|arch=arm64)_ZZNSt9once_flag18_Prepare_executionC4IZSt9call_onceIZN7bmalloc16PerThreadStorageINS3_5CacheEE4initEPvPFvS7_EEUlvE_JEEvRS_OT_DpOT0_EUlvE_EERSC_ENKUlvE_cvPFvvEEv@Qt_5 5.212.0.4
+ (optional=templinst)_ZZNSt9once_flag18_Prepare_executionC4IZSt9call_onceIZN7bmalloc16PerThreadStorageINS3_5CacheEE4initEPvPFvS7_EEUlvE_JEEvRS_OT_DpOT0_EUlvE_EERSC_ENUlvE_4_FUNEv@Qt_5 5.212.0.4
  _ZZZN21QWebIconImageProvider10identifierEvENKUlvE_clEvE15qstring_literal@Qt_5 5.212.0~alpha3
  _ZlsR11QDataStreamRK11QWebHistory@Qt_5 5.212.0~alpha3
  _ZrsR11QDataStreamR11QWebHistory@Qt_5 5.212.0~alpha3
@@ -2519,6 +2752,7 @@ libQt5WebKitWidgets.so.5 libqt5webkit5 #MINVER#
  _ZN17QWebHitTestResultD2Ev@Qt_5 5.6.0~rc
  _ZN17QWebHitTestResultaSERKS_@Qt_5 5.6.0~rc
  _ZN6WebKit23initializeWebKitWidgetsEv@Qt_5 5.6.0~rc
+ (arch=arm64)_ZN7QWidget16setMouseTrackingEb@Qt_5 5.212.0.4
  _ZN8QWebPage10chooseFileEP9QWebFrameRK7QString@Qt_5 5.6.0~rc
  _ZN8QWebPage10setPaletteERK8QPalette@Qt_5 5.6.0~rc
  _ZN8QWebPage11linkClickedERK4QUrl@Qt_5 5.6.0~rc
@@ -2647,6 +2881,11 @@ libQt5WebKitWidgets.so.5 libqt5webkit5 #MINVER#
  _ZN8QWebViewD0Ev@Qt_5 5.6.0~rc
  _ZN8QWebViewD1Ev@Qt_5 5.6.0~rc
  _ZN8QWebViewD2Ev@Qt_5 5.6.0~rc
+ (arch=arm64)_ZN9QBitArray6setBitEi@Qt_5 5.212.0.4
+ (arch=arm64)_ZN9QBitArray6setBitEib@Qt_5 5.212.0.4
+ (arch=arm64)_ZN9QBitArray8clearBitEi@Qt_5 5.212.0.4
+ (arch=arm64)_ZN9QHashData8willGrowEv@Qt_5 5.212.0.4
+ (arch=arm64)_ZN9QHashData9firstNodeEv@Qt_5 5.212.0.4
  _ZN9QWebFrame10setContentERK10QByteArrayRK7QStringRK4QUrl@Qt_5 5.6.0~rc
  _ZN9QWebFrame10urlChangedERK4QUrl@Qt_5 5.6.0~rc
  _ZN9QWebFrame11iconChangedEv@Qt_5 5.6.0~rc
@@ -2722,6 +2961,12 @@ libQt5WebKitWidgets.so.5 libqt5webkit5 #MINVER#
  _ZNK17QWebHitTestResult8linkTextEv@Qt_5 5.6.0~rc
  _ZNK17QWebHitTestResult8mediaUrlEv@Qt_5 5.6.0~rc
  _ZNK17QWebHitTestResult9linkTitleEv@Qt_5 5.6.0~rc
+ (arch=arm64)_ZNK6QColor7isValidEv@Qt_5 5.212.0.4
+ (arch=arm64)_ZNK7QString3argEiii5QChar@Qt_5 5.212.0.4
+ (arch=arm64)_ZNK7QWidget4sizeEv@Qt_5 5.212.0.4
+ (arch=arm64)_ZNK7QWidget8geometryEv@Qt_5 5.212.0.4
+ (arch=arm64)_ZNK7QWidget9isEnabledEv@Qt_5 5.212.0.4
+ (arch=arm64)_ZNK7QWidget9isVisibleEv@Qt_5 5.212.0.4
  _ZNK8QWebPage10isModifiedEv@Qt_5 5.6.0~rc
  _ZNK8QWebPage10metaObjectEv@Qt_5 5.6.0~rc
  _ZNK8QWebPage10totalBytesEv@Qt_5 5.6.0~rc
@@ -2777,6 +3022,8 @@ libQt5WebKitWidgets.so.5 libqt5webkit5 #MINVER#
  _ZNK8QWebView7historyEv@Qt_5 5.6.0~rc
  _ZNK8QWebView8settingsEv@Qt_5 5.6.0~rc
  _ZNK8QWebView8sizeHintEv@Qt_5 5.6.0~rc
+ (arch=arm64)_ZNK9QBitArray2atEi@Qt_5 5.212.0.4
+ (arch=arm64)_ZNK9QBitArray7testBitEi@Qt_5 5.212.0.4
  _ZNK9QWebFrame10metaObjectEv@Qt_5 5.6.0~rc
  _ZNK9QWebFrame10zoomFactorEv@Qt_5 5.6.0~rc
  _ZNK9QWebFrame11childFramesEv@Qt_5 5.6.0~rc

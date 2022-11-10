@@ -1,3 +1,9 @@
+qtwebkit-opensource-src (5.212.0.4~alpha4+dde-1) unstable; urgency=medium
+
+  * Build against Qt 5.15.7.
+
+ -- Duan Ting <duanting@uniontech.com>  Thu, 10 Nov 2022 13:24:04 +0800
+
 qtwebkit-opensource-src (5.212.0.3~alpha4+deepin-1) stable; urgency=medium
 
   * ['Rebuild  against by  current gcc 11.2']

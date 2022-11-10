@@ -61,7 +61,7 @@ Files: debian/*
 Copyright: 2010 Fathi Boudra <fabo@debian.org>
            2012 Zoltán Balogh <zoltan.balogh@canonical.com>
            2012-2013 Timo Jyrinki <timo.jyrinki@canonical.com>
-           2014-2017 Dmitry Shachnev <mitya57@debian.org>
+           2014-2022 Dmitry Shachnev <mitya57@debian.org>
 License: LGPL-2+
 
 Files: Source/WTF/config.h

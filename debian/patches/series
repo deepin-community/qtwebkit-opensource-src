@@ -7,5 +7,6 @@ no_pdf_image_plugin.diff
 python_3.9.diff
 glib_2.68.diff
 jscore_big_endian.diff
+gcc_13.diff
 icu_68.diff
 icu_true_false.patch

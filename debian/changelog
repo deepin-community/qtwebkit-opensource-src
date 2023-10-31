@@ -1,3 +1,9 @@
+qtwebkit-opensource-src (5.212.0.4~alpha4+deepin-2) unstable; urgency=medium
+
+  * Support GCC-13
+
+ -- xiangzelong <xiangzelong@deepin.org>  Tue, 31 Oct 2023 11:48:20 +0800
+
 qtwebkit-opensource-src (5.212.0.4~alpha4+dde-1) unstable; urgency=medium
 
   * Build against Qt 5.15.7.

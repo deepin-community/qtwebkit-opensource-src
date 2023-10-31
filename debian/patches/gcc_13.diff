@@ -1,0 +1,14 @@
+Description: ANGLE: add missing include to fix build with GCC 13
+Origin: upstream, https://chromium.googlesource.com/angle/angle/+/cdfa8f504d83c2a3
+Last-Update: 2023-06-18
+
+--- a/Source/ThirdParty/ANGLE/src/common/mathutil.h
++++ b/Source/ThirdParty/ANGLE/src/common/mathutil.h
+@@ -15,6 +15,7 @@
+ #include <limits>
+ #include <algorithm>
+ #include <string.h>
++#include <stdint.h>
+ #include <stdlib.h>
+ 
+ namespace gl

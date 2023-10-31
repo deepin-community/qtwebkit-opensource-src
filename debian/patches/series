@@ -9,3 +9,4 @@ glib_2.68.diff
 jscore_big_endian.diff
 icu_68.diff
 icu_true_false.patch
+gcc_13.diff

@@ -10,3 +10,4 @@ jscore_big_endian.diff
 gcc_13.diff
 icu_68.diff
 icu_true_false.patch
+support_loong64.diff

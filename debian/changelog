@@ -1,3 +1,9 @@
+qtwebkit-opensource-src (5.212.0.4~alpha4+deepin-3) unstable; urgency=medium
+
+  * add support for loong64
+
+ -- Chang Yang <yangchang@deepin.org>  Wed, 24 Jan 2024 15:57:12 +0800
+
 qtwebkit-opensource-src (5.212.0.4~alpha4+deepin-2) unstable; urgency=medium
 
   * Support GCC-13
